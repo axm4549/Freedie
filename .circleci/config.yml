@@ -49,6 +49,8 @@ jobs:
           command: |
             . venv/bin/activate
             python manage.py test
+            
+      - run: echo "A first hello"
 
       - store_artifacts:
           path: test-reports
