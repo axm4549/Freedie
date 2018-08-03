@@ -50,7 +50,7 @@ jobs:
             . venv/bin/activate
             python manage.py test
             
-      - run: echo "hello"
+      - run: echo "hell"
 
       - store_artifacts:
           path: test-reports
